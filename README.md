@@ -2,7 +2,7 @@
 
 <p align="left">
   <a href="" target="_blank">
-    <img alt="Forks" src="https://img.shields.io/github/forks/Dady24/Denzel-V2/" />
+    <img alt="Forks" src="https://img.shields.io/github/forks/Mickeymozy/Mickey-trony/" />
   </a>
 
 </p>
@@ -14,7 +14,7 @@
     <img alt=Support height="250" src="https://i.imgur.com/gcB7GLV.jpeg"> 
     </p>
 
-****[FORK THIS REPO](https://github.com/Dady24/Denzel-V2//fork)****
+****[FORK THIS REPO](https://github.com/Mickeymozy/Mickey-trony//fork)****
 
 ***[GROUP](https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz)***
 
@@ -39,7 +39,7 @@
 
 *****DEPLOYMENT SITE👇*****
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Lazack28/Lazack-advanced)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mickeymozy/Mickey-trony)
   
 <a href='https://replit.com/~' target="_blank"><img alt='Deploy Replit' src='https://img.shields.io/badge/DEPLOY REPLIT-100000?style=for-the-badge&logo=scan&logoColor=white&labelColor=black&color=black'/></a>
 
