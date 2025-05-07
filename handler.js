@@ -135,7 +135,7 @@ export async function handler(chatUpdate) {
       } else
         global.db.data.chats[m.chat] = {
           antiDelete: true,
-          antiLink: false,
+          antiLink: true,
           antiSticker: false,
           antiToxic: false,
           detect: false,
@@ -906,3 +906,5 @@ watchFile(file, async () => {
   console.log(chalk.redBright('Update handler.js'))
   if (global.reloadHandler) console.log(await global.reloadHandler())
 })
+
+//CREDIT  TO LAZACK28
