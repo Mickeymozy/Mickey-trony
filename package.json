@@ -3,7 +3,7 @@
     "name": "Mickey-trony",
     "version": "2.1.0",
     "description": "Advanced WhatsApp",
-    "main": "LazackEngage.js",
+    "main": "mickeykey.js",
     "type": "module",
     "directories": {
         "lib": "lib",
@@ -14,8 +14,8 @@
         "node": ">=20.0.0"
     },
     "scripts": {
-        "start": "node LazackEngage.js",
-        "test": "node LazackEcho.js"
+        "start": "node mickeykey.js",
+        "test": "node mickeymoss.js"
     },
     "keywords": [
         "termux-whatsapp-bot",
@@ -23,8 +23,8 @@
         "whatsapp",
         "js-whatsapp",
         "whatsapp",
-        "guru-bot",
-        "GURU-bot-md",
+        "Mickey-bots",
+        "Mickey",
         "multi-device",
         "MD",
         "baileys-md"

@@ -87,7 +87,7 @@ async function start(file) {
 
     fs.watchFile(args[0], () => {
       fs.unwatchFile(args[0])
-      start('LazackFlow.js')
+      start('MickeyTrony.js')
     })
   })
 
@@ -95,7 +95,7 @@ async function start(file) {
     console.error(chalk.red(`Error: ${err}`))
     p.kill()
     isRunning = false
-    start('LazackFlow.js')
+    start('MickeyTrony.js')
   })
 
   const pluginsFolder = path.join(path.dirname(currentFilePath), 'lazackcmds')
@@ -117,15 +117,15 @@ async function start(file) {
   })
 }
 
-start('LazackFlow.js')
+start('MickeyTrony.js')
 
 process.on('unhandledRejection', () => {
   console.error(chalk.red(`Unhandled promise rejection. Bot will restart...`))
-  start('LazackFlow.js')
+  start('MickeyTrony.js')
 })
 
 process.on('exit', code => {
   console.error(chalk.red(`Exited with code: ${code}`))
   console.error(chalk.red(`Bot will restart...`))
-  start('LazackFlow.js')
+  start('MickeyTrony.js')
 })
