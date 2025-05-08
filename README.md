@@ -37,7 +37,8 @@
 ---
 #### 📌 **GET SESSION ID**
 <a href="https://mickey-pair.static.domains/mickey">
-  <img title="GET SESSION ID" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
+  https://img.shields.io/badge/GET%20SESSION_ID-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a>
+
 </a>
 
 HOW TO DEPLOY IN NEW VISION CHECK VIDEO BELOW 
