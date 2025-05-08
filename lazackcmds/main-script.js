@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 let handler = async function (m, { conn }) {
-  const githubRepoURL = 'https://github.com/Lazack28/Lazack-Device';
+  const githubRepoURL = 'https://github.com/Mickeymozy/Mickey-trony';
 
   try {
     const [, username, repoName] = githubRepoURL.match(/github\.com\/([^/]+)\/([^/]+)/);
@@ -13,8 +13,8 @@ let handler = async function (m, { conn }) {
 
       // Format the repository information with emojis
       const formattedInfo = `
-🚀 *Lazack-Device Repository*
-Lazack-Device is a powerful and feature-rich WhatsApp bot framework designed to enhance automation, security, and user experience. Perfect for developers looking to build advanced WhatsApp bots.
+🚀 *Mickey Repository*
+Mickeytrony is a powerful and feature-rich WhatsApp bot framework designed to enhance automation, security, and user experience. Perfect for developers looking to build advanced WhatsApp bots.
 
 📂 *Repository Name:* ${repoData.name}
 📝 *Description:* ${repoData.description || 'No description available'}
@@ -39,13 +39,13 @@ npm install
 node index.js
 \`\`\`
 📘 *Documentation:*  
-For detailed usage and customization instructions, check out the [Wiki](https://github.com/Lazack28/Lazack-Device/wiki).
+For detailed usage and customization instructions, check out the [Wiki](https://github.com/Mickeymozy/Mickey-trony/wiki).
 
 🎉 *Contribute:*  
 We welcome contributions! Feel free to fork the repository, submit issues, or create pull requests to help improve Lazack-Device.
 
 📞 *Support:*  
-Need help? Join our [Support Group](https://chat.whatsapp.com/255734980103) or contact us directly.
+Need help? Join our [Support Group](https://chat.whatsapp.com/255612130873) or contact us directly.
 
 📢 Join our community and contribute to the project!  
       `.trim();
@@ -63,7 +63,7 @@ Need help? Join our [Support Group](https://chat.whatsapp.com/255734980103) or c
                 text: formattedInfo,
                 contextInfo: {
                   externalAdReply: {
-                    title: 'Lazack-Device - Advanced WhatsApp Bot',
+                    title: 'Mickeytrony WhatsApp Bot',
                     body: 'Click here to visit the GitHub repository',
                     mediaType: 1,
                     mediaUrl: repoData.html_url,
