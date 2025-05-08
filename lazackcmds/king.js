@@ -54,7 +54,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ┃   📜 script  
 ┃   🧭 runtime  
 ┃   📍 infobot  
-┃   ❤️ donate  
+┃   ❤️ pair  
 ┃   🌍 groups  
 ┃   🚫 blocklist  
 ┃   🌟 listprem  
@@ -64,11 +64,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ╭━━━━━━━━━━━━━━━━━━
 ┃   🚫 banchat  
 ┃   🛑 unbanchat  
-┃   🛠️ banuser  
+┃   🛠️ getjid  
 ┃   🚪 unbanuser  
 ┃   📢 broadcast  
 ┃   🔗 join link  
-┃   🖼️ setppbot  
+┃   🖼️ getpp  
 ┃   🔠 setprefix  
 ┃   📁 getfile  
 ╰━━━━━━━━━━━━━━━━━━
@@ -77,7 +77,7 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ╭━━━━━━━━━━━━━━━━━━
 ┃   🚷 kick  
 ┃   👑 promote  
-┃   📉 demote  
+┃   📉 add  
 ┃   📋 infogroup  
 ┃   🔗 link  
 ┃   🖼️ setpp  
@@ -94,10 +94,10 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 📥 *Download Options*  
 ╭━━━━━━━━━━━━━━━━━━
 ┃   🎧 play  
-┃   📹 ytv  
+┃   📹 song  
 ┃   🎵 yta  
-┃   🖼️ gimage  
-┃   📌 pinterest  
+┃   🖼️ image  
+┃   📌 yts 
 ┃   📁 mediafire  
 ┃   ☁️ gdrive  
 ┃   🐱‍🏍 gitclone  
@@ -107,25 +107,11 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 ┃   🎶 spotify  
 ╰━━━━━━━━━━━━━━━━━━
 
-💰 *Economy System*  
-╭━━━━━━━━━━━━━━━━━━
-┃   🪙 daily  
-┃   🎲 bet  
-┃   💸 gamble  
-┃   💪 heal  
-┃   ⛏️ mine  
-┃   🧭 work  
-┃   🛒 shop  
-┃   🛍️ sell  
-┃   🎁 opencrate  
-┃   📊 balance  
-┃   🔁 transfer  
-╰━━━━━━━━━━━━━━━━━━
 
 🎭 *Fun & Games*  
 ╭━━━━━━━━━━━━━━━━━━
-┃   💬 truth  
-┃   💘 dare  
+┃   💬 getsticker  
+┃   💘 love  
 ┃   ❤️ ship  
 ┃   😂 stupid  
 ┃   🃏 ytcomment  
@@ -136,45 +122,15 @@ let handler = async (m, { conn, usedPrefix, command }) => {
 🧰 *Utility Tools*  
 ╭━━━━━━━━━━━━━━━━━━
 ┃   📦 readmore  
-┃   📧 email text  
-┃   🔗 shortlink url  
+┃   📧 tovid  
+┃   🔗  tourl  
 ┃   🔎 whois ip/domain  
 ╰━━━━━━━━━━━━━━━━━━
 
-🎨 *Sticker & Logo Creation*  
-╭━━━━━━━━━━━━━━━━━━
-┃   🌟 attp  
-┃   ✨ ttp  
-┃   🎨 smeme  
-┃   🌀 sticker  
-┃   🖼️ stickercrop  
-┃   🖌️ stickermeme  
-┃   💫 logo  
-┃   🔮 neon  
-┃   ⚡ glitch  
-╰━━━━━━━━━━━━━━━━━━
+━
 
-🔞 *NSFW (18+)*  
-╭━━━━━━━━━━━━━━━━━━
-┃   🍑 nsfwloli  
-┃   🍒 nsfwgif  
-┃   🍑 hentai  
-┃   🍑 xnxx  
-┃   🍑 xxx  
-┃   🍑 blowjob  
-┃   🍑 boobs  
-┃   🍑 milf  
-╰━━━━━━━━━━━━━━━━━━
-
-🎉 *Extra Hidden Features*  
-╭━━━━━━━━━━━━━━━━━━
-┃   🎁 easteregg1  
-┃   🎁 easteregg2  
-┃   🎁 easteregg3  
-╰━━━━━━━━━━━━━━━━━━
-
-🌐 *Silva MD - Innovation that Connects 💖*  
-🦄 *SILVA TECH INC | EST. 2025*  
+🌐 * - Innovation that Connects *  
+🦄 *MICKEY | EST. 2025*  
 
 ${readMore}
 `
@@ -187,8 +143,8 @@ ${readMore}
       forwardingScore: 999,
       isForwarded: true,
       forwardedNewsletterMessageInfo: {
-        newsletterJid: '120363200367779016@newsletter',
-        newsletterName: '◢◤ 🥰Silva Tech Inc 💖◢◤',
+        newsletterJid: '120363314875614529@newsletter',
+        newsletterName: 'Mickey',
         serverMessageId: 143
       }
     }
