@@ -31,7 +31,7 @@
 
 ---
 #### 📌 **GET SESSION ID**
-<a href="mickeypairing.tiiny.site/">
+<a href="https://mickey-pair.static.domains/mickey">
   <img title="GET SESSION ID" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
 </a>
 
