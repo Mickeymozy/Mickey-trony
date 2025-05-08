@@ -1,6 +1,6 @@
 
 
-#        PRINCE-BOT-MD 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
+#        MICKEY-TRONY 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
 
 ![lazack](https://github.com/user-attachments/assets/4c512367-d49b-4db8-9a3f-0008497be19e)
 
@@ -17,7 +17,7 @@
 
 ### 🌟 **NEW ALIVE ANIMATION**
 <p align="center">
-  <img src="https://i.imgur.com/LyHic3i.gif"/>
+  <img src="https://i.imgur.com/wTGP1cq.jpeg"/>
 </p>
 
 ---
@@ -25,29 +25,30 @@
 ### 🛠 **SETUP INSTRUCTIONS**
 
 # 🚀 **FORK & STAR THE REPO**
-<a href="https://github.com/PRINCETECH20/Prince-bot-md/fork">
+<a href="https:/Mickeymozy/Mickey-trony/github.com//fork">
   <img title="Fork Repo" src="https://img.shields.io/badge/Fork This Repo-black?style=for-the-badge&logo=git&logoColor=red"/>
 </a>
 
 ---
 #### 📌 **GET SESSION ID**
-<a href="https://silver-carly-54.tiiny.site/">
+<a href="mickeypairing.tiiny.site/">
   <img title="GET SESSION ID" src="https://img.shields.io/badge/GET SESSION ID-HERE-green?style=for-the-badge&logo=nike" width="230" height="38.45"/>
 </a>
 
 HOW TO DEPLOY IN NEW VISION CHECK VIDEO BELOW 
 
-https://github.com/user-attachments/assets/c8d2752f-3061-4e4f-9470-34210041343e
+
 
 
 #### 🚀 **DEPLOY NOW**
-https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE-BOT-MD/edit/main/README.md
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Mickeymozy/Mickey-trony)
+
 
 ---
 
-### 🌍 **PRINCE-BOT-MD SUPPORT**
+### 🌍 **MICKEYTRONY SUPPORT**
 
-<a href="https://whatsapp.com/channel/0029VbAqgXx6mYPK6IVaY71V">
+<a href="https://api.whatsapp.com/send/?phone=255612130873&text&type=phone_number&app_absent=0">
   <img height="30" title="SUPPORT GROUP" src="https://img.shields.io/badge/Support channel-25D366?style=for-the-badge&logo=whatsapp&logoColor=white">
 </a>
 
@@ -59,8 +60,8 @@ https://dashboard.heroku.com/new?template=https://github.com/PRINCETECH20/PRINCE
 
 ---
 
-### 🌟 **CONTACT PRINCE-BOT-MD TEAM**
+### 🌟 **CONTACT  TEAM**
 <p align="center">
-  <a href="https://wa.me/qr/V2LOTVUSN252J1"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
-  <a href="https://wa.me/qr/V2LOTVUSN252J1"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
+  <a href="https://wa.me/255612130873"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
+  <a href="https://wa.me/255615944741"> <img src="https://raw.githubusercontent.com/shizothetechie/database/main/icon/WhatsApp.png" width="13%"> </a>
   <a 
