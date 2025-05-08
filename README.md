@@ -1,6 +1,6 @@
 
 
-#        MICKEY-TRONY 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
+#        MICKEY-TRONY BOT V.2.1
 
 ![lazack]()
 
@@ -15,14 +15,19 @@
 
 ---
 
-### 🌟 **NEW ALIVE ANIMATION**
+### 🌟 **BOT OWNER MICKEYMOZY**
 <p align="center">
   <img src="https://i.imgur.com/Sr58vPG.jpeg"/>
 </p>
 
----
+## 📦 **RECOMMENDED TOOLS**
 
-### 🛠 **SETUP INSTRUCTIONS**
+- **Code Editor:** [Visual Studio Code](https://code.visualstudio.com/)
+- **Version Control:** [Git](https://git-scm.com/)
+- **Hosting:** [Heroku](https://heroku.com/), [Replit](https://replit.com/)
+
+
+
 
 # 🚀 **FORK & STAR THE REPO**
 <a href="https:/Mickeymozy/Mickey-trony/github.com//fork">
