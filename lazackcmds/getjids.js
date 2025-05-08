@@ -48,7 +48,7 @@ const handler = async (m, { conn }) => {
 
     // Compose the final message with bold for group info and members
 
-    let messageContent = `*Silva created Group JID:* ${groupJid}\n*Group Name:* ${groupName}\n\n*Group Members:*\n${memberDetails.join('\n')}`;
+    let messageContent = `*Mickey created Group JID:* ${groupJid}\n*Group Name:* ${groupName}\n\n*Group Members:*\n${memberDetails.join('\n')}`;
 
     // Send the message to the group
 
