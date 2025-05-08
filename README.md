@@ -2,7 +2,7 @@
 
 #        MICKEY-TRONY 𝐕𝐄𝐑𝐒𝐈𝐎𝐍𝐒
 
-![lazack](https://github.com/user-attachments/assets/4c512367-d49b-4db8-9a3f-0008497be19e)
+![lazack]()
 
 
 
@@ -17,7 +17,7 @@
 
 ### 🌟 **NEW ALIVE ANIMATION**
 <p align="center">
-  <img src="https://i.imgur.com/wTGP1cq.jpeg"/>
+  <img src="https://i.imgur.com/Sr58vPG.jpeg"/>
 </p>
 
 ---
