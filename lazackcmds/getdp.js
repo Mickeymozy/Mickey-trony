@@ -22,8 +22,8 @@ let handler = async (m, { conn, args, command }) => {
         forwardingScore: 999,
         isForwarded: true,
         forwardedNewsletterMessageInfo: {
-          newsletterJid: '120363200367779016@newsletter',
-          newsletterName: 'Silva md bot',
+          newsletterJid: '120363314875614529@newsletter',
+          newsletterName: 'Mickey',
           serverMessageId: 143
         }
       }
@@ -37,6 +37,6 @@ let handler = async (m, { conn, args, command }) => {
 
 handler.help = ['spp', 'sprofilepic', 'getpp'];
 handler.tags = ['tools'];
-handler.command = /^(spp|sprofilepic|getpp)$/i;
+handler.command = /^(spp|sprofilepic|pp)$/i;
 
 export default handler;
