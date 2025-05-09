@@ -19,8 +19,6 @@ export async function before(m, { conn, isAdmin, isBotAdmin }) {
         const linkThisGroup = `https://chat.whatsapp.com/${await conn.groupInviteCode(m.chat)}`;
         if (m.text.includes(linkThisGroup)) return true; // Ignore links to the same group
 
-       const linkThisGroup = `https://youtu.be/${await conn.groupInviteCode(m.chat)}`;
-        if (m.text.includes(linkThisGroup)) return true; // Ignore links to the same group
 
         // Notify the user and remove them
         await conn.reply(
