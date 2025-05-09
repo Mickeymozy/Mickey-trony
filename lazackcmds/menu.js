@@ -40,11 +40,11 @@ let str = `
 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 *MICKEY-TRONY BOT ✨*
-*Version 2.9.0 | By MickeyMozy`* 
+*Version 2.9.0 | By MickeyMozy* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
-📚 **Library** » `MICKEY INFO  TECH`  
-🔗 **Source** » [GitHub](https://github.com/Mickeymozy/Mickey-trony)  
-🌟 **Description** » *"A multipurpose bot with a touch of magic!"*  
+ **Library** » `MICKEY INFO  TECH`  
+ **Source** » [GitHub](https://github.com/Mickeymozy/Mickey-trony)  
+ **Description** » *"A multipurpose bot with a touch of magic!"*  
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
 ${readMore}
 👋 *Hello, ${username}!*
