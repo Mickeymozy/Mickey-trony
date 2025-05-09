@@ -42,10 +42,16 @@ let str = `
 *MICKEY-TRONY BOT ✨*
 *Version 2.9.0 | By MickeyMozy* 
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬  
- **Library** » `MICKEY INFO  TECH`  
- **Source** » [GitHub](https://github.com/Mickeymozy/Mickey-trony)  
+ **Library** » MICKEY INFO  TECH  
+ *Source* » [GitHub](https://github.com/Mickeymozy/Mickey-trony)  
  **Description** » *"A multipurpose bot with a touch of magic!"*  
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬
+${readMore}
+『 *COMMAND MENU* 』 
+*use this command by start with prefix*
+${readMore}
+
+
 ${readMore}
 👋 *Hello, ${username}!*
 ${greeting}
