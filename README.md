@@ -2,7 +2,6 @@
 
 #        MICKEY-TRONY BOT V.2.1
 
-![lazack]()
 
 
 
@@ -36,7 +35,7 @@
 
 ---
 #### 📌 **GET SESSION ID**
-<a href="https://mickey-pair.static.domains/mickey">
+<a href="https://micky-session.onrender.com/">
     <img title="Pair session id" src='https://img.shields.io/badge/GET%20SESSION_ID-magenta?style=for-the-badge&logo=opencv&logoColor=white'/></a> 
 
 </a>
