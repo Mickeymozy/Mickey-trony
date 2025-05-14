@@ -1,16 +1,16 @@
 let handler = async (m, { conn }) => {
     let vcard = `
   BEGIN:VCARD
-  VERSION:3.0
-  N:;MICKEY;;;
-  FN:MICKEY
-  ORG:MICKEY
-  TITLE:
-  TEL;waid=255615944741
-  X-ABLabel:MICKEY
-  X-WA-BIZ-DESCRIPTION:
-  X-WA-BIZ-NAME:MICKEY
-  END:VCARD
+VERSION:3.0
+N:;MICKEY;;;
+FN:MICKEY
+ORG:MICKEY
+TITLE:
+TEL;TYPE=CELL;VALUE=uri:tel:+255615944741
+X-ABLabel:MICKEY
+X-WA-BIZ-DESCRIPTION:
+X-WA-BIZ-NAME:MICKEY
+END:VCARD
     `.trim();
   
     await conn.sendMessage(
