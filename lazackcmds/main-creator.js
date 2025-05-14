@@ -2,14 +2,14 @@ let handler = async (m, { conn }) => {
     let vcard = `
   BEGIN:VCARD
 VERSION:3.0
-N:;MICKEY;;;
-FN:MICKEY
-ORG:MICKEY
-TITLE:
-TEL;TYPE=CELL;VALUE=uri:tel:+255615944741
+N:;Mickey;;;
+FN:Mickey
+ORG:Mickey
+TITLE:This is mickey
+TEL;TYPE=CELL;VALUE=uri:tel:+255612130873
 X-ABLabel:MICKEY
 X-WA-BIZ-DESCRIPTION:
-X-WA-BIZ-NAME:MICKEY
+X-WA-BIZ-NAME:Mickey
 END:VCARD
     `.trim();
   
