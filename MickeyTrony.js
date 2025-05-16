@@ -1,6 +1,7 @@
 
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
 import './config.js'
+
 import { makeInMemoryStore } from '@adiwajshing/baileys'
 import dotenv from 'dotenv'
 import { existsSync, readFileSync, readdirSync, unlinkSync, watch } from 'fs'
