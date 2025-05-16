@@ -2,7 +2,7 @@ let handler = async (m, { conn }) => {
   let user = global.db.data.users[m.sender]
   let name = conn.getName(m.sender)
   let taguser = '@' + m.sender.split('@s.whatsapp.net')[0]
-  let av = `./Botify/${pickRandom(['lazack', 'mtaju'])}.mp3`
+  let av = `./Botify/${pickRandom(['Mickey2', 'Mickey'])}.mp3`
 
 
 conn.sendButton(m.chat, `*HELLO IM HERE*      
@@ -13,7 +13,7 @@ conn.sendButton(m.chat, `*HELLO IM HERE*
 conn.sendFile(m.chat, av, 'audio.mp3', null, m, true, { type: 'audioMessage', ptt: true })
 } 
 
-handler.customPrefix = /^(bot|denzel)$/i
+handler.customPrefix = /^(trony/i
 handler.command = new RegExp()
 
 export default handler
