@@ -2,7 +2,6 @@
 process.env['NODE_TLS_REJECT_UNAUTHORIZED'] = '1'
 import './config.js'
 
-import { makeInMemoryStore } from '@adiwajshing/baileys'
 import dotenv from 'dotenv'
 import { existsSync, readFileSync, readdirSync, unlinkSync, watch } from 'fs'
 import { createRequire } from 'module'
@@ -293,7 +292,7 @@ if (!opts['test']) {
   }
 }
 
-if (opts['server']) (await import('./Trony.js')).default(global.conn, PORT)
+if (opts['server']) (await import('./LazackConnect.js')).default(global.conn, PORT)
 
 function runCleanup() {
   clearTmp()
@@ -351,13 +350,13 @@ async function connectionUpdate(update) {
     conn.logger.info(chalk.yellow('\nLogging in....'))
   }
   if (connection === 'open') {
-            let notificationText = ` CONNECTED:*Succesfully to connected in 𝕸𝖎𝖈𝖐𝖊𝖞-𝖙𝖗𝖔𝖓𝖞 dababase* .`
-              await conn.sendMessage(255615944741 + "@s.whatsapp.net", { text: notificationText })
+            let notificationText = ` CONNECTED:*Succesfully to connected in loft xmd dababase* .`
+              await conn.sendMessage(+255778018545 + "@s.whatsapp.net", { text: notificationText })
   }
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `𝕮𝖔𝖓𝖌𝖗𝖆𝖙𝖘! 𝕸𝖎𝖈𝖐𝖊𝖞-𝖙𝖗𝖔𝖓𝖞 𝖎𝖘 𝖓𝖔𝖜 𝖑𝖎𝖛𝖊 𝖔𝖓 𝖞𝖔𝖚𝖗 𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕.𝕰𝖓𝖏𝖔𝖞 𝖙𝖍𝖊 𝖆𝖉𝖉𝖊𝖉 𝖋𝖊𝖆𝖙𝖚𝖗𝖊𝖘::\n\n\n https://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz`
+    const msg = `𝕮𝖔𝖓𝖌𝖗𝖆𝖙𝖘! loft xmd 𝖎𝖘 𝖓𝖔𝖜 𝖑𝖎𝖛𝖊 𝖔𝖓 𝖞𝖔𝖚𝖗 𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕.𝕰𝖓𝖏𝖔𝖞 𝖙𝖍𝖊 𝖆𝖉𝖉𝖊𝖉 𝖋𝖊𝖆𝖙𝖚𝖗𝖊𝖘::\n\n\n https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610/`
 
     await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
