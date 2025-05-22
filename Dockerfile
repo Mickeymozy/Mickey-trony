@@ -1,8 +1,8 @@
 FROM quay.io/gurusensei/gurubhay:latest
 
-RUN git clone https://github.com/Mickeymozy/Mickey-trony /root/lazack
+RUN git clone https://github.com/Mickeymozy/Mickey-trony /root/MICK
 
-WORKDIR /root/lazack/
+WORKDIR /root/MICK/
 
 RUN npm install --platform=linuxmusl
 
