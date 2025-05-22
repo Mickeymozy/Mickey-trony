@@ -358,8 +358,6 @@ async function connectionUpdate(update) {
     const { jid, name } = conn.user
     const msg = `𝕷𝖎𝖛𝖊 : 𝖂𝖍𝖆𝖙𝖘𝖆𝖕𝖕 𝖆𝖓𝖉 𝕸𝖎𝖈𝖐𝖊𝖞-𝖙𝖗𝖔𝖓𝖞 𝖉𝖆𝖙𝖆𝖇𝖆𝖘𝖊 𝖎𝖓𝖙𝖊𝖌𝖗𝖆𝖙𝖊𝖉 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖗𝖊𝖕𝖔𝖗𝖙 𝖈𝖔𝖓𝖙𝖆𝖗𝖙 𝖙𝖔 𝖔𝖜𝖓𝖊𝖗::\n\n\nhttps://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz `
 
-    await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
-
     conn.logger.info(chalk.yellow('\n 𝖶𝖮𝖱𝖪'))
   }
 
