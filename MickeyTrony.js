@@ -350,13 +350,15 @@ async function connectionUpdate(update) {
     conn.logger.info(chalk.yellow('\nLogging in....'))
   }
   if (connection === 'open') {
-            let notificationText = ` *𝔐𝔦𝔠𝔨𝔢𝔶-𝔱𝔯𝔬𝔫𝔶 𝔡𝔞𝔱𝔞 𝔫𝔬𝔴 𝔞𝔠𝔠𝔢𝔰𝔦𝔟𝔩𝔢 𝔳𝔦𝔞 𝔴𝔥𝔞𝔱𝔰𝔞𝔭𝔭* .`
-              await conn.sendMessage(+255615944741 + "@s.whatsapp.net", { text: notificationText })
+            let notificationText = ` CONNECTED:*Succesfully to connected in loft xmd dababase* .`
+              await conn.sendMessage(+255612130873 + "@s.whatsapp.net", { text: notificationText })
   }
 
   if (connection === 'open') {
     const { jid, name } = conn.user
-    const msg = `𝕷𝖎𝖛𝖊 : 𝖂𝖍𝖆𝖙𝖘𝖆𝖕𝖕 𝖆𝖓𝖉 𝕸𝖎𝖈𝖐𝖊𝖞-𝖙𝖗𝖔𝖓𝖞 𝖉𝖆𝖙𝖆𝖇𝖆𝖘𝖊 𝖎𝖓𝖙𝖊𝖌𝖗𝖆𝖙𝖊𝖉 𝖋𝖔𝖗 𝖆𝖓𝖞 𝖗𝖊𝖕𝖔𝖗𝖙 𝖈𝖔𝖓𝖙𝖆𝖗𝖙 𝖙𝖔 𝖔𝖜𝖓𝖊𝖗::\n\n\nhttps://chat.whatsapp.com/CAKGysbedAWCrGmrm5bOiz `
+    const msg = `𝕮𝖔𝖓𝖌𝖗𝖆𝖙𝖘! loft xmd 𝖎𝖘 𝖓𝖔𝖜 𝖑𝖎𝖛𝖊 𝖔𝖓 𝖞𝖔𝖚𝖗 𝖜𝖍𝖆𝖙𝖘𝖆𝖕𝖕.𝕰𝖓𝖏𝖔𝖞 𝖙𝖍𝖊 𝖆𝖉𝖉𝖊𝖉 𝖋𝖊𝖆𝖙𝖚𝖗𝖊𝖘::\n\n\n https://whatsapp.com/channel/0029Vb6B9xFCxoAseuG1g610/`
+
+    await conn.sendMessage(jid, { text: msg, mentions: [jid] }, { quoted: null })
 
     conn.logger.info(chalk.yellow('\n 𝖶𝖮𝖱𝖪'))
   }
